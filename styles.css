@@ -1,0 +1,443 @@
+ /* Basic styling */
+ body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #18141A;
+  }
+  /* Navigation bar styles */
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #000000;
+    color: #fff;
+    padding: 10px;
+  }
+  .navbar-logo {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+    margin-left: 40px;
+  }
+  .navbar-logo img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
+  .navbar-menu {
+    display: flex;
+    margin-right: 550px;
+   
+  }
+  .navbar-menu-item {
+    margin-right: 20px;
+    position: relative;
+  }
+  .navbar-menu-item a {
+    color: #fff;
+    text-decoration: none;
+    padding-left: 20px;
+  }
+  .dropdown-icon {
+    width: 32px;
+    height: 32px;
+  }
+  .btn {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    margin-left: 30px;
+  }
+  .btn-signin {
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+   
+  }
+  .btn-login {
+    background-color: #FF2D55;
+    color: #fff;
+    margin-right: 30px
+  }
+  /* Section styles */
+  .section {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+  }
+  .slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    transition: opacity 0.5s;
+  }
+  .slide.dark-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  .slide video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
+  .content {
+    z-index: 1;
+    margin-right: 700px;
+    margin-bottom: 300px;
+  }
+  .content h1{
+    margin-right: 360px;
+    font-size: 30px;
+    text-align: right;
+    margin-top: 200px;
+  }
+  .content p{
+    margin-right: 200px;
+  }
+  .btn {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  .btn-learn-more {
+    background-color: #fff;
+    color: #333;
+  }
+  .btn-join-us {
+    background-color: red;
+    color: #fff;
+  }
+  .section {
+    position: relative;
+  }
+  
+  .slide {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .slide.active {
+    display: block;
+  }
+  
+  .toggle-slide {
+    position: fixed;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    z-index: 999;
+  }
+  /*djfdsjfkjds*/
+  .bahria-university-section {
+    padding: 20px;
+}
+
+.section-heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+   
+}
+
+.tabs {
+    display: flex;
+    
+}
+
+.tab {
+    cursor: pointer;
+    margin-right: 20px;
+    margin-top: 10px;
+    color: white;
+    text-decoration: underline;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.tab.active {
+    text-decoration: none;
+}
+
+.content1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.events-content, .heads-content {
+    display: none;
+}
+
+.events-content.active, .heads-content.active {
+    display: block;
+}
+
+.event-slider {
+    display: flex;
+    overflow-x: hidden;
+}
+
+.event-box {
+    text-align: center;
+    margin-right: 20px;
+    flex: 1 0 0; /* Adjust the flex property as needed */
+}
+
+.btn-live-now {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.show-more {
+    margin-top: 20px;
+}
+
+.bottom-left {
+    color: #808080;
+}
+
+.bottom-right {
+    text-align: right;
+}
+
+.btn-transparent {
+    background-color: transparent;
+    border: 1px solid #808080;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.toggle-slide {
+  display: none; /* Hide original toggle button */
+}
+
+.events-content p {
+  margin-bottom: 20px; /* Add some space below the paragraph */
+}
+
+.events-content img {
+  width: 150px; /* Adjust the size of the logo image */
+  height: auto; /* Maintain aspect ratio */
+}
+.image-container {
+  position: relative;
+  width: 50%; /* Adjust as needed */
+  
+}
+.image-container img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-right: 20px;
+
+ 
+}
+.image-container2 img{
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-right: 20px;
+}
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.text {
+  color: white;
+  font-size: 20px;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+.button {
+  display: inline-block;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+/*4*/
+.background-section {
+  background-image: url('/Code in the Dark/assets/section3/girlfuturisticimage.png'); /* Add the path to your image */
+  background-size: cover;
+  background-position: center;
+  height: 600px; /* Adjust the height as needed */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  opacity: 0.7; /* Adjust the opacity to make the image dull */
+}
+
+/* Style for the paragraph */
+.section-content {
+  color: white; /* Text color */
+  font-size: 20px; /* Adjust font size as needed */
+  padding: 400px;
+  font-size: 20px;
+}
+ /* Style for the section */
+ .section-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200px;
+}
+
+/* Style for the logo */
+.logo {
+  max-width: 100px; /* Adjust the size of the logo as needed */
+  margin-right: 150px;
+  background-color: white;
+ border-radius: 10px;
+ margin-left: 50px;
+}
+
+/* Style for the profile picture */
+.profile-picture {
+  border-radius: 50%;
+  border: 3px solid #ffdab9; /* Skin color border */
+  width: 300px; /* Adjust the size of the profile picture as needed */
+  height: 300px;
+  object-fit: cover;
+}
+
+/* Style for the paragraph */
+.paragraph {
+  width: 50%; /* Adjust the width of the paragraph as needed */
+  font-size: 16px;
+  color: white;
+  margin-right: -200px;
+}
+
+   /* Style for the section */
+   .image-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+  }
+
+  /* Style for the image container */
+  .image-container1 {
+    position: relative;
+    width: 45%; /* Adjust the width of each image container as needed */
+    background-color:#F18D5E;
+    border-radius: 10px;
+  }
+  .image-container2 {
+    position: relative;
+    width: 45%; /* Adjust the width of each image container as needed */
+    border-radius: 10px;
+    background-color: #691FA9;
+  }
+
+  /* Style for the image */
+  .image-container1 img{
+    width: 70%;
+    height: 300px;
+    display: block;
+    border-radius: 200px solid transparent;
+    
+    
+  }
+   /* Style for the overlay */
+   .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Transparent black overlay */
+    opacity: 0.7; /* Adjust the opacity as needed */
+    border-radius: 10px; /* Match the border radius of the image container */
+  }
+
+  .image-container2 img{
+    width: 70%;
+    height: 300px;
+    display: block;
+    
+  }
+  .image {
+    width: 100%;
+    display: block;
+    filter: brightness(80%); /* Reduce brightness to make it dull */
+  }
+  /* Style for the button */
+  .button {
+    position: absolute;
+    bottom: 10px; /* Adjust the vertical position of the button */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  /* Hover effect for the button */
+  .button:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  /* CSS styles */
+.toggle-slide {
+  position: fixed;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  z-index: 999;
+}
+
+.toggle-slide button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.toggle-slide button:hover {
+  background-color: darkred;
+}

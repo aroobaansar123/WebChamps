@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Navigation Bar</title>
+<link rel="stylesheet" href="styles.css">
+<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+</head>
+<body>
+
+<div class="navbar">
+  <a href="#" class="navbar-logo">
+    <img src="/Code in the Dark/assets/navbar/LOGOCD.png" alt="Logo">
+
+  </a>
+  <div class="navbar-menu">
+    <div class="navbar-menu-item">
+      <a href="#">Register</a>
+       <img src="arrow-down-sign-to-navigate.png"  height="20" width="20" alt=""> </div>
+    <div class="navbar-menu-item">
+      <a href="#">About Us</a>
+      <img src="arrow-down-sign-to-navigate.png"  height="20" width="20" alt=""> 
+    </div>
+    <div class="navbar-menu-item">
+      <a href="#">Contact Us</a>
+      <img src="arrow-down-sign-to-navigate.png"  height="20" width="20" alt="">
+        </div>
+  </div>
+  <div class="navbar-buttons">
+    <button class="btn btn-signin">Sign In</button>
+    <button class="btn btn-login">Login</button>
+  </div>
+</div>
+<section class="section">
+    <div class="slide active" id="slide1" style="background-image: url('video1.jpg');">
+      <video autoplay muted loop>
+        <source src="/Code in the Dark/assets/section1/codeinthedarkvideo.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <div class="content">
+        <h1>Code In The Dark</h1>
+        <p>This is a three-line paragraph text. This is a three-line paragraph text. This is a three-line paragraph text.</p>
+        <button class="btn btn-learn-more">Learn More</button>
+        <button class="btn btn-join-us">Join Us Now</button>
+      </div>
+    </div>
+    <div class="slide" id="slide2" style="background-image: url('video2.jpg');">
+      <video autoplay muted loop>
+        <source src="/Code in the Dark/assets/section1/manifestovideo.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <div class="content">
+        <h1>Manifesto</h1>
+        <p>This is a three-line paragraph text. This is a three-line paragraph text. This is a three-line paragraph text.</p>
+        <button class="btn btn-learn-more">Learn More</button>
+        <button class="btn btn-join-us">Join Us Now</button>
+      </div>
+    </div>
+    <div class="toggle-slide">
+      <button id="toggleSlideBtn">Toggle Slide</button>
+    </div>
+</section>
+<section class="bahria-university-section">
+  <div class="section-heading" style="color: #808080;">Bahria University</div>
+  <div class="content1">
+      <div class="tabs">
+          <div class="tab" id="events-tab">Events</div>
+          <div class="tab" id="heads-tab">Heads</div>
+      </div>
+      <div class="events-content active">
+          <div class="event-slider">
+            <div class="image-container">
+              <img src="/Code in the Dark/assets/section2/events/careercounseling.png" alt="Image 1">
+              <div class="overlay">
+                <div class="text">Text on Image 1</div>
+                <button class="button">Button on Image 1</button>
+              </div>
+            </div>
+           <div class="event-slider">
+            <div class="image-container">
+              <img src="/Code in the Dark/assets/section2/events/careercounseling.png" alt="Image 1">
+              <div class="overlay">
+                <div class="text">Text on Image 1</div>
+                <button class="button">Button on Image 1</button>
+              </div>
+            </div>
+          </div>
+              <!-- Add more event boxes here -->
+          </div>
+          <button class="show-more">Show More</button>
+      </div>
+      <div class="heads-content">
+          <!-- Content for Heads section -->
+      </div>
+  </div>
+  <div class="bottom-left">By Buds</div>
+  <div class="bottom-center"><img src="logo.png" alt="Logo"></div>
+  <div class="bottom-right"><button class="btn-transparent">Find Out More</button></div>
+</section>
+<section class="background-section">
+  <div class="section-content">
+    <p>"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum iste cumque sunt autem quo saepe maiores nisi ab fugiat ad! Sed in, quam earum quaerat cumque facilis totam modi molestias dolor cum voluptates, tempore ducimus repellat, possimus quae assumenda dignissimos odio rerum nihil. Sequi hic architecto, excepturi dolorem sed autem."</p> </div>
+</section>
+<section class="section-container">
+  <div>
+    <img src="/Code in the Dark/assets/section4/BUDS_LOGO.png" alt="Logo" class="logo">
+    <div class="paragraph">
+      <p>This is a paragraph of 5 lines. It is positioned below the logo. You can replace this text with your own content.</p>
+    </div>
+  </div>
+  <img src="/Code in the Dark/assets/section4/devopsseminar-lab-pic.png" alt="Profile Picture" class="profile-picture">
+</section>
+<section class="image-section">
+  <div class="image-container1">
+    <img src="/Code in the Dark/assets/section5/collaborate and compete image.png" alt="Image 1" class="image">
+    <button class="button">Show All Listing</button>
+  </div>
+  <div class="image-container2">
+    <img src="/Code in the Dark/assets/section5/find-a-team.png"  height="20" width="100" alt="Image 2" class="image">
+    <button class="button">Find Teams</button>
+  </div>
+</section>
+</body>
+<script src="script.js"></script>
+</html>
